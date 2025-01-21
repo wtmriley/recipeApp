@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "sandpackVersion": "0.10.11",
   "engines": {
-  "node": "16.x"
+  "node": "18.x"
 }
   "dependencies": {
     "@babel/runtime": "7.20.6",
