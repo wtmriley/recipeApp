@@ -1,5 +1,4 @@
 import React, { useState, handleChange } from "react";
-import RecipeData from "./RecipeData"
 
 function RecipeCreate({ addRecipe }) {
   const [formData, setFormData] = useState({
@@ -10,7 +9,7 @@ function RecipeCreate({ addRecipe }) {
     preparation: "",
   });
 
-  handleChange = ({ target }) => {
+  const handleChange = ({ target }) => {
     setFormData({
       ...formData, [target.name]: target.value,
     });
