@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, handleChange } from "react";
 import RecipeData from "./RecipeData"
 
 function RecipeCreate({ addRecipe }) {
