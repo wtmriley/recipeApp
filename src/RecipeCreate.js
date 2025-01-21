@@ -37,7 +37,7 @@ function RecipeCreate({ addRecipe }) {
               <input type="text" id="name" name="name" placeholder="name" value={formData.name} onChange ={handleChange}></input>
             </td>
             <td>
-              <input type="text" id="cuisine" name="cuisine" placeholder="cuisine" vlue={formData.cuisine} onChange={handleChange}></input>
+              <input type="text" id="cuisine" name="cuisine" placeholder="cuisine" value={formData.cuisine} onChange={handleChange}></input>
             </td>
             <td>
               <input type="text" id="photo" name="photo" placeholder="photo" value={formData.photo} onChange={handleChange}></input>
